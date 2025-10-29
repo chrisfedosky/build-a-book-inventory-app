@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+span[class="read"] {
+    background-image: linear-gradient(215deg, hsl(30, 100%, 50%), hsl(30, 100%, 30%));
+}
+span[class="to-read"] {
+    background-image: linear-gradient(135deg, hsl(0, 60%, 50%), hsl(0, 65%, 30%);
+}
+span[class="in-progress"] {background-image: linear-gradient(215deg, hsl(60, 75%, 50%), hsl(60, 75%, 35%);
+}
+span {
+    display: inline-block;
+}
+tr.to-read span[class="status"] {
+    border: 2px solid black;
+    background-image: linear-gradient(to top, hsl(240, 75%, 60%), hsl(210, 75%, 60%));
+}
+tr.in-progress span[class="status"] {
+    border: 2px solid black;
+    background-image: linear-gradient(to top, hsl(90, 50%, 50%), hsl(150, 50%, 50%));
+}
+tr.rate span[class="status"] {
+    height: 0.75rem;
+    width: 0.75rem;
+    padding: 0.5em;
+}
+span[class="rate"] span {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    height: 0.75em;
+    width: 0.75em;
+    background-color: aqua;
+}
+span[class~="one"] {
+    background-image: linear-gradient(215deg, hsl(30, 100%, 50%), hsl(30, 100%, 30%));
+}
+span[class~="two"] {
+    background-image: linear-gradient(135deg, hsl(0, 60%, 50%), hsl(0, 65%, 30%);
+}
+span[class~="three"] {background-image: linear-gradient(215deg, hsl(60, 75%, 50%), hsl(60, 75%, 35%);
+}
